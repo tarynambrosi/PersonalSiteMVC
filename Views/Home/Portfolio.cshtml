@@ -1,0 +1,247 @@
+﻿@{
+    ViewData["Title"] = "Portfolio";
+}
+
+<main id="main">
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Portfolio</h2>
+                <p></p>
+            </div>
+
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-app">Front End</li>
+                        <li data-filter=".filter-card">Middle Tier</li>
+                        <li data-filter=".filter-web">Back End</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="~/assets/img/portfolio/dungeongif.gif" class="img-gif" alt="Playthrough of Dungeon App">
+                        <div class="portfolio-info">
+                            <h4>Dungeon App</h4>
+                            <p>A sneak peek at the dungeon crawler I made using C#</p>
+                            <div class="portfolio-links">
+                                <a href="~/assets/img/portfolio/dungeongif.gif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Dungeon App"><i class="bx bx-plus"></i></a>
+                                <a href="https://github.com/tarynambrosi/VaultofOoo.git" target="_blank" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               @*  <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="~/assets/img/portfolio/coming-soon.gif" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Web 3</h4>
+                            <p>Web</p>
+                            <div class="portfolio-links">
+                                <a href="~/assets/img/portfolio/coming-soon.gif" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="~/assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>App 2</h4>
+                            <p>App</p>
+                            <div class="portfolio-links">
+                                <a href="~/assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="~/assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Card 2</h4>
+                            <p>Card</p>
+                            <div class="portfolio-links">
+                                <a href="~/assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="~/assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Web 2</h4>
+                            <p>Web</p>
+                            <div class="portfolio-links">
+                                <a href="~/assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img src="~/assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>App 3</h4>
+                            <p>App</p>
+                            <div class="portfolio-links">
+                                <a href="~/assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="~/assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Card 1</h4>
+                            <p>Card</p>
+                            <div class="portfolio-links">
+                                <a href="~/assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img src="~/assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Card 3</h4>
+                            <p>Card</p>
+                            <div class="portfolio-links">
+                                <a href="~/assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-wrap">
+                        <img src="~/assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Web 3</h4>
+                            <p>Web</p>
+                            <div class="portfolio-links">
+                                <a href="~/assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> *@
+
+            </div>
+
+        </div>
+    </section><!-- End Portfolio Section -->
+    <!-- ======= Languages Section ======= -->
+    <section id="testimonials" class="testimonials">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Languages</h2>
+                <p>Below you'll find all of the languages I've used so far. You can see how I used them to achieve my projects above!</p>
+            </div>
+
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/assets/img/csharp.png" class="testimonial-img" alt="C# Logo">
+                            <h3>C#</h3>
+                            <h4><a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">Learn more about C# here!</a></h4>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/assets/img/html5.png" class="testimonial-img" alt="HTML Logo">
+                            <h3>HTML</h3>
+                            <h4><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">Learn more about HTML here!</a></h4>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/assets/img/css.png" class="testimonial-img" alt="CSS Logo">
+                            <h3>CSS</h3>
+                            <h4><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Learn more about CSS here!</a></h4>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/assets/img/jquery-1-logo.png" class="testimonial-img" alt="jQuery Logo">
+                            <h3>jQuery</h3>
+                            <h4><a href="https://api.jquery.com/" target="_blank">Learn more about jQuery here!</a></h4>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/assets/img/js.png" class="testimonial-img" alt="JavaScript Logo">
+                            <h3>JavaScript</h3>
+                            <h4><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">Learn more about JavaScript here!</a></h4>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/assets/img/react.png" class="testimonial-img" alt="React Logo">
+                            <h3>React</h3>
+                            <h4 class="learn-more"><a href="https://react.dev/learn" target="_blank">Learn more about React here!</a></h4>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/assets/img/sql.png" class="testimonial-img" alt="SQL Logo">
+                            <h3>SQL</h3>
+                            <h4 class="learn-more"><a href="https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16" target="_blank">Learn more about SQL here!</a></h4>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Languages section -->
+</main><!-- End #main -->
