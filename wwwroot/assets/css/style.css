@@ -19,10 +19,11 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-  color: #51cdbe;
-  text-decoration: none;
-}
+    a:hover {
+        color: #5D8154;
+        transition: .3s;
+        text-decoration: none;
+    }
 
 h1,
 h2,
