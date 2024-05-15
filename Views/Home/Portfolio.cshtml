@@ -29,11 +29,11 @@
                     <div class="portfolio-wrap">
                         <img src="~/assets/img/portfolio/dungeongif.gif" class="img-gif" alt="Playthrough of Dungeon Crawler App">
                         <div class="portfolio-info">
-                            <h4>Dungeon Crawler</h4>
-                            <p>A sneak peek at the dungeon crawler I made using C#</p>
+                            <h4>Dungeon App</h4>
+                            <p>C#</p>
                             <div class="portfolio-links">
-                                <a href="~/assets/img/portfolio/dungeongif.gif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="A closer look at a playthrough of my Dungeon crawler!"><i class="bx bx-plus"></i></a>
-                                <a href="https://github.com/tarynambrosi/VaultofOoo.git" target="_blank"><i class="bx bx-link"></i></a>
+                                <a asp-action="PortfolioDetails" asp-controller="Home" title="Details"><i class="bx bx-plus"></i></a>
+                                <a href="https://github.com/tarynambrosi/VaultofOoo.git" target="_blank"><i class="bi bi-git" id="portfolioGit"></i></a>
                             </div>
                         </div>
                     </div>
@@ -48,8 +48,8 @@
                                 <h4>Mock Storefront</h4>
                                 <p>A mock online store based on my family's business!</p>
                                 <div class="portfolio-links">
-                                    <a href="~/assets/img/portfolio/storefrontgif.gif" data-gallery="portfolioGallery" class="portfolio-lightbox" title="A closer look at the Home page of my storefront!"><i class="bx bx-plus"></i></a>
-                                    <a href="https://github.com/tarynambrosi/StoreFront.git" target="_blank"><i class="bx bx-link"></i></a>
+                                    <a asp-action="StorefrontDetails" asp-controller="Home" title="Details"><i class="bx bx-plus"></i></a>
+                                    <a href="https://github.com/tarynambrosi/StoreFront.git" target="_blank"><i class="bi bi-git" id="portfolioGit"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -65,25 +65,27 @@
                                 <h4>ReactJS ToDo App</h4>
                                 <p>An app for creating, editing, and checking off tasks to stay organized.</p>
                                 <div class="portfolio-links">
-                                    <a href="~/assets/img/portfolio/reacttodo.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="A peak at my To Do App!"><i class="bx bx-plus"></i></a>
-                                    <a href="https://github.com/tarynambrosi/react-todo.git" target="_blank"><i class="bx bx-link"></i></a>
+                                    <a asp-action="ToDoDetails" asp-controller="Home" title="Details"><i class="bx bx-plus"></i></a>
+                                    <a href="https://github.com/tarynambrosi/react-todo.git" target="_blank"><i class="bi bi-git" id="portfolioGit"></i></a>
+                                    <a href="https://todo.ambrosidev.net" target="_blank"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- team projects -->
+                <!-- todo api -->
                 <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="~/assets/img/portfolio/reacttodo.png" class="img-fluid" alt="To Do page of my ToDo App">
+                            <img src="~/assets/img/portfolio/todoapi.png" class="img-fluid" alt="JSON Objects">
                             <div class="portfolio-info">
-                                <h4>ReactJS ToDo App</h4>
-                                <p>An app for creating, editing, and checking off tasks to stay organized.</p>
+                                <h4>ToDo Web API</h4>
+                                <p>.NET Core Web API</p>
                                 <div class="portfolio-links">
-                                    <a href="~/assets/img/portfolio/reacttodo.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="A peak at my To Do App!"><i class="bx bx-plus"></i></a>
-                                    <a href="https://github.com/tarynambrosi/react-todo.git" target="_blank"><i class="bx bx-link"></i></a>
+                                    <a asp-action="ToDoAPIDetails" asp-controller="Home" title="Details"><i class="bx bx-plus"></i></a> 
+                                    <a href="https://github.com/tarynambrosi/react-todo.git" target="_blank"><i class="bi bi-git" id="portfolioGit"></i></a>
+                                    <a href="https://todoapi.ambrosidev.net/API/ToDos" target="_blank"><i class="bx bx-link"></i></a>
                                 </div>
                             </div>
                         </div>

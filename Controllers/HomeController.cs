@@ -108,6 +108,21 @@ namespace PersonalSiteMVC.Controllers
         {
             return View();
         }
+
+        public IActionResult ToDoDetails()
+        {
+            return View();
+        }
+
+        public IActionResult StorefrontDetails()
+        {
+            return View();
+        }
+
+        public IActionResult ToDoAPIDetails()
+        {
+            return View();
+        }
     }
 
 }

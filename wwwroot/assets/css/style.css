@@ -1040,6 +1040,7 @@ section {
   overflow: hidden;
   z-index: 1;
   background: rgba(34, 34, 34, 0.6);
+  border-radius: 5px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1102,9 +1103,9 @@ section {
   transition: 0.3s;
 }
 
-.portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #78d9cd;
-}
+    .portfolio .portfolio-wrap .portfolio-links a:hover {
+        color: #5D8154;
+    }
 
 .portfolio .portfolio-wrap:hover::before {
   opacity: 1;
@@ -1123,6 +1124,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 0;
+  padding-bottom: 15%;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -1139,11 +1141,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #34b7a7;
+  border: 1px solid #5D8154;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #34b7a7;
+  background-color: #5D8154;
 }
 
 .portfolio-details .portfolio-info {
@@ -1183,14 +1185,13 @@ section {
   padding: 0;
 }
 
-.portfolio .bx-link, .portfolio .bx-plus
-{
+.portfolio .bx-link, .portfolio .bx-plus {
     color: #fff;
 }
 
     .portfolio .bx-link:hover, .portfolio .bx-plus:hover {
-        color: #5D8154;
-    }
+    color: #5D8154;
+}
 
 
 
