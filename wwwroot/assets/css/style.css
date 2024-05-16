@@ -35,7 +35,7 @@ h6 {
 }
 
 #main {
-    margin-top: 70px;
+    margin-top: 55px;
     background: #333333;
     color: white;
 }
@@ -45,6 +45,7 @@ h6 {
     margin-top: 30px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -361,22 +362,22 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #3f3f3f;
   overflow-y: auto;
   transition: 0.3s;
 }
 
-.navbar-mobile a,
-.navbar-mobile a:focus {
-  font-size: 15px;
-  padding-right: 15px;
-  color: #222222;
-}
+    .navbar-mobile a,
+    .navbar-mobile a:focus {
+        font-size: 15px;
+        padding-right: 15px;
+        color: #92AC8C;
+    }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #34b7a7;
+  color: #fff;
 }
 
 .navbar-mobile .getstarted,
@@ -488,7 +489,7 @@ h6 {
 @media (max-width: 992px) {
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    /*background: rgba(255, 255, 255, 0.8);*/
     position: absolute;
     bottom: 0;
     top: 0;
@@ -758,7 +759,6 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #34b7a7;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {

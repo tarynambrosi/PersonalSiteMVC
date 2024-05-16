@@ -1,44 +1,43 @@
 ﻿@{
     ViewData["Title"] = "Home";
 }
+<main id="main">
+    <!-- Hero section-->
 
-<!-- Hero section-->
-<section id="hero" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-
-        <h1>Taryn Ambrosi</h1>
-        <h2>Full Stack Web Developer</h2>
-        <p></p>
-        <div class="row">
-            <div class="col-lg-4">
-                <img src="~/assets/img/portfolio/taryn2024.jpg" class="img-fluid" alt="Taryn Ambrosi">
-            </div>
-            <div class="col-lg-8 pt-4 pt-lg-0 p content">
-
-                <p style="padding-right: 3em; font-size: larger;">
-                    Prior to entering the field of technology, I dedicated five years to esthetics and the beauty industry. While I found the work enjoyable, I needed a deeper sense of fulfillment. The transition to becoming a developer, thanks to Centriq, has been transformative and inspiring.
-                    <br /> <br />
-                    My fascination with coding quickly evolved from a passing interest to a true passion. The skills I attained as an esthetician, including managing the needs of over 20 clients daily, honing effective communication, and becoming adept at problem-solving, have been invaluable.
-                    <br /> <br />
-                    Now, having graduated from Centriq, I'm ecstatic about expanding my expertise in various coding languages and crafting exciting projects. The boundless potential of this field is incredible, and I can't wait to collaborate on a team with nerds like me. Thank you for visiting my site, and please feel free to reach out with any inquiries or simply to say hi!
-                </p>
-                
-            </div>
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container d-flex flex-column align-items-center" data-aos="fade-up" data-aos-delay="100">
+            <h1>Taryn Ambrosi</h1>
+            <h2>Full Stack Developer from Independence, Missouri</h2>
+            <a href="#about" class="btn-about">Learn more</a>
         </div>
-  
-    </div>
-</section>
-<!-- Hero section end -->
+    </section><!-- End Hero -->
+    <!-- Hero section end -->
+    <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
 
-                    @* <p>
-                        Welcome to my site! a gal with a passion for crafting, gaming, and coding. My journey into the world of technology traces back to when I was a kid, where I found joy in gaming alongside my sisters and my dad, which later sparked an interest in coding. <br /><br />
+            <div class="section-title">
+                <h2>My Journey into Technology</h2>
+                <p></p>
+            </div>
 
-                        As I've honed my skills at Centriq, coding has evolved from an interest to a genuine passion. I especially loved working with databases and . Another aspiration of mine is to develop a small indie game, with the hopes of expanding into something even bigger.<br /><br />
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="~/assets/img/portfolio/taryn2024.jpg" class="img-fluid" alt="Taryn Ambrosi" style="border-radius: 5px">
+                </div>
+                <div class="col-lg-8 pt-4 pt-lg-0 content">
+                    <h3></h3>
+                    <p class="fst-italic" style="font-size: large">
+                        Prior to entering the field of technology, I dedicated five years to esthetics and the beauty industry. While I found the work enjoyable, I needed a deeper sense of fulfillment. The transition to becoming a developer, thanks to Centriq, has been transformative and inspiring.
+                        <br /> <br />
+                        My fascination with coding quickly evolved from a passing interest to a true passion. The skills I attained as an esthetician, including managing the needs of over 20 clients daily, honing effective communication, and becoming adept at problem-solving, have been invaluable.
+                        <br /> <br />
+                        Now, having graduated from Centriq, I'm ecstatic about expanding my expertise in various coding languages and crafting exciting projects (like the ones <a asp-action="Portfolio" asp-controller="Home">here</a>!). The boundless potential of this field is incredible, and I can't wait to collaborate on a team with nerds like me. Thank you for visiting my site, and please feel free to reach out with any questions or simply to say hi!
+                    </p>
+                   
+                    
+                </div>
+            </div>
 
-                        My journey into technology began after initially pursuing a path in the beauty industry, following in my mom's footsteps. This led me to become an esthetician at the age of 18 and pursue that role for 5 years. During my time in said role, I adeptly managed the needs of over 20 clients daily, refining my communication, problem-solving, and customer service skills. However, I felt limited creatively in this field, which spurred my decision to begin my education at Centriq.<br /><br />
-
-                        My experiences have instilled in me a strong sense of adaptability, a trait in which I've learned is invaluable in the dynamic field of programming. I am a versatile and empathetic team player, and I'm ready to take on any challenge!<br /><br />
-
-                        I'm excited about the endless possibilities of contributing my unique blend of creativity, technical skills, and passion to your team. Let's embark on a new adventure together and create something truly extraordinary!
-                    </p> *@
-    
+        </div>
+    </section><!-- End About Section -->
+</main>

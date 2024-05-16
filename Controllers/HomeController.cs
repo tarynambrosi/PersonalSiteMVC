@@ -123,6 +123,11 @@ namespace PersonalSiteMVC.Controllers
         {
             return View();
         }
+
+        public IActionResult TeamDetails()
+        {
+            return View();
+        }
     }
 
 }
